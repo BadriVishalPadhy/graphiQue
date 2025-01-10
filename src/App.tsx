@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router";
 import Navbar from './components/navbar/Navbar';
-import LandingApp from './pages/landing/app';
+import LandingApp from './pages/landing/Landing';
 import Login from './pages/auth/Login';
 import Signup from './pages/auth/Signup';
 import MainApp from './pages/main/app';
