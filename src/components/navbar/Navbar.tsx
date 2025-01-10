@@ -10,12 +10,12 @@ const Navbar = () => {
             
             <Link to='/' className='text-3xl font-semibold'>Graphique</Link>
 
-            <div className='flex  flex-row items-center gap-2'>
-                <div className='flex-row items-center hidden md:flex gap-2'>
+            <div className='flex  flex-row items-center gap-6'> 
+                <div className='flex-row items-center hidden md:flex gap-4  text-lg'>
                 
                     <Link to='/'>Home</Link>
                     <Link to='#'>Features</Link>                
-                    <Link to='/main'> main </Link>
+                    <Link to='/main'> Main </Link>
                     </div>
 
                     <div className='flex flex-row items-center gap-2'>
