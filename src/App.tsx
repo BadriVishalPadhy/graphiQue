@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <CreativeEditorSDKComponent />
-      <div>{import.meta.env.VITE_license}</div>
+      <div>{import.meta.env.VITE_LICENCE}</div>
     </div>
   );
 }
