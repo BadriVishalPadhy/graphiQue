@@ -5,6 +5,7 @@ import LandingApp from './pages/landing/app';
 import Login from './pages/auth/Login';
 import Signup from './pages/auth/Signup';
 import MainApp from './pages/main/app';
+import './index.css';
 
 
 const App = () => {
