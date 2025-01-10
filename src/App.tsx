@@ -1,10 +1,9 @@
-import CreativeEditorSDKComponent from "../src/components/CreativeEditorSDK";
+import { Button } from "../src/components/ui/button";
 
 export default function Home() {
   return (
     <div>
-      <CreativeEditorSDKComponent />
-      <div>{import.meta.env.VITE_license}</div>
+      <Button>Click me</Button>
     </div>
   );
 }
