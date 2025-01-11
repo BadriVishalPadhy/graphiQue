@@ -2,7 +2,7 @@ import CreativeEditorSDK from "@cesdk/cesdk-js";
 import { useEffect, useRef, useState } from "react";
 
 const config = {
-  license: import.meta.env.VITE_LIC,
+  license: "iV_RkEwej9Y4EwDeeV1BA_sftVZRi_YUU2QKbCcIxUqHcedYGqR9a0VyR1IiN_uK",
   userId: "guides-user",
   // Enable local uploads in Asset Library
   callbacks: { onUpload: "local" as "local" },
