@@ -10,6 +10,7 @@ const config = {
 export default function CreativeEditorSDKComponent() {
   const cesdk_container = useRef(null);
   const [cesdk, setCesdk] = useState(null);
+  console.log(cesdk);
   useEffect(() => {
     if (!cesdk_container.current) return;
 
